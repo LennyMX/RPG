@@ -1,0 +1,236 @@
+##########################################
+# CORRIDA 1
+##########################################
+Entrada simulada
+Nombre: Aria
+Clase: 2 (Mago)
+Equipamiento: 1,3,5
+Enemigo: 1 (Goblin)
+
+Héroe: Aria (base) + Espada + Veneno + Bendición
+ATK: 40 | DEF: 12 | VEL: 17 | HP: 100
+Enemigo: Goblin salvaje | ATK: 12 | DEF: 5 | HP: 60
+=== COMBATE INICIADO ===
+
+--- TURNO 1 ---
+Aria (base) + Espada + Veneno + Bendición usa AtaqueHechizo sobre Goblin salvaje
+  Daño: 40 | Efecto: hechizo + veneno
+  Goblin salvaje HP: 60 -> 20
+Goblin salvaje (base) usa AtaquePunalada sobre Aria
+  Daño: 1 | Efecto: puñalada
+  Aria HP: 100 -> 99
+
+--- TURNO 2 ---
+Aria (base) + Espada + Veneno + Bendición usa AtaqueHechizo sobre Goblin salvaje
+  Daño: 43 | Efecto: hechizo + veneno (DOT +3)
+  Goblin salvaje HP: 20 -> 0
+
+=== COMBATE FINALIZADO ===
+Ganador: Aria (base) + Espada + Veneno + Bendición (HP restante: 99)
+
+
+##########################################
+# CORRIDA 2
+##########################################
+Entrada simulada
+Nombre: Thorin
+Clase: 1 (Guerrero)
+Equipamiento: 2,4
+Enemigo: 2 (Orco)
+
+Héroe: Thorin (base) + Armadura + Amuleto de regeneración
+ATK: 18 | DEF: 25 | VEL: 8 | HP: 120
+Enemigo: Orco bruto | ATK: 32 | DEF: 10 | HP: 110
+=== COMBATE INICIADO ===
+
+--- TURNO 1 ---
+Thorin (base) + Armadura + Amuleto de regeneración usa AtaqueEspada sobre Orco bruto
+  Daño: 8 | Efecto: espadazo
+  Orco bruto HP: 110 -> 102
+Orco bruto (base) usa AtaqueEspada sobre Thorin
+  Daño: 7 | Efecto: espadazo
+  Thorin HP: 120 -> 113
+
+--- TURNO 2 ---
+Thorin (base) + Armadura + Amuleto de regeneración usa AtaqueEspada sobre Orco bruto
+  Daño: 8 | Efecto: espadazo + regeneración (+2 HP)
+  Orco bruto HP: 102 -> 94
+Orco bruto (base) usa AtaqueEspada sobre Thorin
+  Daño: 7 | Efecto: espadazo
+  Thorin HP: 115 -> 108
+
+--- TURNO 3 ---
+Thorin (base) + Armadura + Amuleto de regeneración usa AtaqueEspada sobre Orco bruto
+  Daño: 8 | Efecto: espadazo + regeneración (+2 HP)
+  Orco bruto HP: 94 -> 86
+Orco bruto (base) usa AtaqueEspada sobre Thorin
+  Daño: 7 | Efecto: espadazo
+  Thorin HP: 110 -> 103
+
+--- TURNO 4 ---
+Thorin (base) + Armadura + Amuleto de regeneración usa AtaqueEspada sobre Orco bruto
+  Daño: 8 | Efecto: espadazo + regeneración (+2 HP)
+  Orco bruto HP: 86 -> 78
+Orco bruto (base) usa AtaqueEspada sobre Thorin
+  Daño: 7 | Efecto: espadazo
+  Thorin HP: 105 -> 98
+
+--- TURNO 5 ---
+Thorin (base) + Armadura + Amuleto de regeneración usa AtaqueEspada sobre Orco bruto
+  Daño: 16 (¡CRÍTICO!) | Efecto: espadazo + regeneración (+2 HP)
+  Orco bruto HP: 78 -> 62
+Orco bruto (base) usa AtaqueEspada sobre Thorin
+  Daño: 7 | Efecto: espadazo
+  Thorin HP: 100 -> 93
+
+--- TURNO 6 ---
+Thorin (base) + Armadura + Amuleto de regeneración usa AtaqueEspada sobre Orco bruto
+  Daño: 8 | Efecto: espadazo + regeneración (+2 HP)
+  Orco bruto HP: 62 -> 54
+Orco bruto (base) usa AtaqueEspada sobre Thorin
+  Daño: 7 | Efecto: espadazo
+  Thorin HP: 95 -> 88
+
+--- TURNO 7 ---
+Thorin (base) + Armadura + Amuleto de regeneración usa AtaqueEspada sobre Orco bruto
+  Daño: 8 | Efecto: espadazo + regeneración (+2 HP)
+  Orco bruto HP: 54 -> 46
+Orco bruto (base) usa AtaqueEspada sobre Thorin
+  Daño: 7 | Efecto: espadazo
+  Thorin HP: 90 -> 83
+
+--- TURNO 8 ---
+Thorin (base) + Armadura + Amuleto de regeneración usa AtaqueEspada sobre Orco bruto
+  Daño: 8 | Efecto: espadazo + regeneración (+2 HP)
+  Orco bruto HP: 46 -> 38
+Orco bruto (base) usa AtaqueEspada sobre Thorin
+  Daño: 7 | Efecto: espadazo
+  Thorin HP: 85 -> 78
+
+--- TURNO 9 ---
+Thorin (base) + Armadura + Amuleto de regeneración usa AtaqueEspada sobre Orco bruto
+  Daño: 8 | Efecto: espadazo + regeneración (+2 HP)
+  Orco bruto HP: 38 -> 30
+Orco bruto (base) usa AtaqueEspada sobre Thorin
+  Daño: 7 | Efecto: espadazo
+  Thorin HP: 80 -> 73
+
+--- TURNO 10 ---
+Thorin (base) + Armadura + Amuleto de regeneración usa AtaqueEspada sobre Orco bruto
+  Daño: 8 | Efecto: espadazo + regeneración (+2 HP)
+  Orco bruto HP: 30 -> 22
+Orco bruto (base) usa AtaqueEspada sobre Thorin
+  Daño: 7 | Efecto: espadazo
+  Thorin HP: 75 -> 68
+
+--- TURNO 11 ---
+Thorin (base) + Armadura + Amuleto de regeneración usa AtaqueEspada sobre Orco bruto
+  Daño: 8 | Efecto: espadazo + regeneración (+2 HP)
+  Orco bruto HP: 22 -> 14
+Orco bruto (base) usa AtaqueEspada sobre Thorin
+  Daño: 7 | Efecto: espadazo
+  Thorin HP: 70 -> 63
+
+--- TURNO 12 ---
+Thorin (base) + Armadura + Amuleto de regeneración usa AtaqueEspada sobre Orco bruto
+  Daño: 8 | Efecto: espadazo + regeneración (+2 HP)
+  Orco bruto HP: 14 -> 6
+Orco bruto (base) usa AtaqueEspada sobre Thorin
+  Daño: 7 | Efecto: espadazo
+  Thorin HP: 65 -> 58
+
+--- TURNO 13 ---
+Thorin (base) + Armadura + Amuleto de regeneración usa AtaqueEspada sobre Orco bruto
+  Daño: 8 | Efecto: espadazo + regeneración (+2 HP)
+  Orco bruto HP: 6 -> 0
+
+=== COMBATE FINALIZADO ===
+Ganador: Thorin (base) + Armadura + Amuleto de regeneración (HP restante: 60)
+
+
+##########################################
+# CORRIDA 3
+##########################################
+Entrada simulada
+Nombre: Legolas
+Clase: 3 (Arquero)
+Equipamiento: 1,2,3,5
+Enemigo: 3 (Dragón)
+
+Héroe: Legolas (base) + Espada + Armadura + Veneno + Bendición
+ATK: 37 | DEF: 18 | VEL: 18 | HP: 90
+Enemigo: Dragón ancestral | ATK: 22 | DEF: 12 | HP: 150
+=== COMBATE INICIADO ===
+
+--- TURNO 1 ---
+Legolas (base) + Espada + Armadura + Veneno + Bendición usa AtaqueFlecha sobre Dragón ancestral
+  Daño: 31 | Efecto: flecha + veneno
+  Dragón ancestral HP: 150 -> 119
+Dragón ancestral (base) usa AtaqueHechizo sobre Legolas
+  Daño: 22 | Efecto: hechizo
+  Legolas HP: 90 -> 68
+
+--- TURNO 2 ---
+Legolas (base) + Espada + Armadura + Veneno + Bendición usa AtaqueFlecha sobre Dragón ancestral
+  Daño: 34 | Efecto: flecha + veneno (DOT +3)
+  Dragón ancestral HP: 119 -> 85
+Dragón ancestral (base) usa AtaqueHechizo sobre Legolas
+  Daño: 22 | Efecto: hechizo
+  Legolas HP: 68 -> 46
+
+--- TURNO 3 ---
+Legolas (base) + Espada + Armadura + Veneno + Bendición usa AtaqueFlecha sobre Dragón ancestral
+  Daño: 34 | Efecto: flecha + veneno (DOT +3)
+  Dragón ancestral HP: 85 -> 51
+Dragón ancestral (base) usa AtaqueHechizo sobre Legolas
+  Daño: 22 | Efecto: hechizo
+  Legolas HP: 46 -> 24
+
+--- TURNO 4 ---
+Legolas (base) + Espada + Armadura + Veneno + Bendición usa AtaqueFlecha sobre Dragón ancestral
+  Daño: 65 (¡CRÍTICO!) | Efecto: flecha + veneno (DOT +3)
+  Dragón ancestral HP: 51 -> 0
+
+=== COMBATE FINALIZADO ===
+Ganador: Legolas (base) + Espada + Armadura + Veneno + Bendición (HP restante: 24)
+
+
+##########################################
+# CORRIDA 4
+##########################################
+Entrada simulada
+Nombre: Sombra
+Clase: 4 (Pícaro)
+Equipamiento: 3,4,5
+Enemigo: 1 (Goblin)
+
+Héroe: Sombra (base) + Veneno + Amuleto de regeneración + Bendición
+ATK: 24 | DEF: 12 | VEL: 23 | HP: 85
+Enemigo: Goblin salvaje | ATK: 12 | DEF: 5 | HP: 60
+=== COMBATE INICIADO ===
+
+--- TURNO 1 ---
+Sombra (base) + Veneno + Amuleto de regeneración + Bendición usa AtaquePunalada sobre Goblin salvaje
+  Daño: 19 | Efecto: puñalada + veneno
+  Goblin salvaje HP: 60 -> 41
+Goblin salvaje (base) usa AtaquePunalada sobre Sombra
+  Daño: 1 | Efecto: puñalada
+  Sombra HP: 85 -> 84
+
+--- TURNO 2 ---
+Sombra (base) + Veneno + Amuleto de regeneración + Bendición usa AtaquePunalada sobre Goblin salvaje
+  Daño: 22 | Efecto: puñalada + veneno (DOT +3) + regeneración (+1 HP)
+  Goblin salvaje HP: 41 -> 19
+Goblin salvaje (base) usa AtaquePunalada sobre Sombra
+  Daño: 1 | Efecto: puñalada
+  Sombra HP: 85 -> 84
+
+--- TURNO 3 ---
+Sombra (base) + Veneno + Amuleto de regeneración + Bendición usa AtaquePunalada sobre Goblin salvaje
+  Daño: 22 | Efecto: puñalada + veneno (DOT +3) + regeneración (+1 HP)
+  Goblin salvaje HP: 19 -> 0
+
+=== COMBATE FINALIZADO ===
+Ganador: Sombra (base) + Veneno + Amuleto de regeneración + Bendición (HP restante: 85)
+
+
